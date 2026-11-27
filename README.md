@@ -7,7 +7,7 @@
 An XML file landed on your computer: an export, a log, a price list from a supplier. Double-click does nothing, Notepad shows one endless line, and your eyes give up around line two. You don't need to install anything: view and beautify it right in your browser, and keep the file exactly where it is.
 
 <p align="center">
-  <img src="xml-formatter" alt="xml formatter online">
+  <img src="XML-FORMATTER.png" alt="xml formatter online">
 </p>
 
 ## What it does
@@ -16,12 +16,19 @@ XML Beautifier opens XML files offline, and the viewer takes whatever you have: 
 
 **Beautify** is the main move: proper indentation, one node per line (pretty print xml under a friendlier name). Messy input in, formatted tree out; a file that arrived as one endless line becomes something you can actually read.
 
+<p align="center">
+  <img src="XML-BEAUTIFIER-BEFORE-AFTER.png" alt="XML BEAUTIFIER BEFORE AFTER">
+</p>
+
 The view side earns its keep on big files: in the xml viewer, **syntax highlighting** makes tags and values distinguishable at a glance, and **collapsible nodes** fold the branches you don't care about. A file five thousand lines long stops being scary once half of it is folded away.
 
 **Minify** does the opposite of Beautify: it strips whitespace and formatting back out when the XML needs to travel light (same data, fewer bytes). And when a file is broken, the extension **pinpoints the exact error line**, so you fix the file instead of guessing at it.
 
 **What it doesn't do, honestly.** It doesn't edit XML: this is a read-and-tidy tool, not an editor. It doesn't validate against XSD schemas: the pinpointed error in broken XML covers the everyday xml validator need, not the schema-level one. And it doesn't replace an IDE: it isn't trying to be a development environment, and you'd notice if it pretended. For everything short of that (look, tidy, share a readable version), it's enough.
 
+<p align="center">
+  <img src="XML-BEAUTIFIER-ERROR-LINE.png" alt="XML ERROR">
+</p>
 
 ## Who it's for
 
