@@ -6,6 +6,10 @@
 
 An XML file landed on your computer: an export, a log, a price list from a supplier. Double-click does nothing, Notepad shows one endless line, and your eyes give up around line two. You don't need to install anything: view and beautify it right in your browser, and keep the file exactly where it is.
 
+<p align="center">
+  <img src="xml-formatter" alt="xml formatter online">
+</p>
+
 ## What it does
 
 XML Beautifier opens XML files offline, and the viewer takes whatever you have: paste the text, drop a file, open xml files from disk with the **Open file** button, or hit **Try a sample** before your own file shows up. Four ways in, zero setup: pick one and beautify.
